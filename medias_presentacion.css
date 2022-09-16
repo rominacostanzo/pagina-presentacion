@@ -1,0 +1,215 @@
+@media screen and (max-width:500px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body{
+        width: auto;
+        height: auto;
+        margin-bottom: 0%;
+    }
+    
+    .logo_rc {
+        align-self: center;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+    }
+
+    h1{
+        margin-top: 50px;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+    }
+
+    .datos {
+        margin-top: 100px;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        margin-left: 0;
+        padding-top: 75px;
+        flex-wrap: wrap;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main nav {
+    margin-right: 5%;
+    width: 80vw;
+    height: auto;
+    z-index: 1;
+    background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%)
+    }
+
+    .contenedora{
+        width: 50%;
+        z-index: 0;
+    }
+
+   #presentacion{
+    width: 40%;
+    height: 40%;
+    overflow-y: hidden;
+   }
+
+   .presentacion{
+    margin-bottom: 10px;
+   }
+
+   hr{
+    visibility: hidden;
+   }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 15vh;
+    margin-bottom: 0%;
+    }
+    
+    footer a{
+        width: 1rem;
+        /*text-decoration: none;*/
+    }
+    
+    figcaption{
+        font-size: 1.0rem;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    /**{
+        padding: 0;
+        margin: 0;
+    }*/
+
+    body{
+        width: auto;
+        height: auto;
+    }
+    
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_rc {
+        align-self: center;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+    }
+
+    h1{
+        margin-top: 50px;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+    }
+
+    .datos {
+        margin-top: 100px;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        margin-left: 0;
+        padding-top: 75px;
+        flex-wrap: wrap;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main nav {
+        margin-right: 5%;
+        width: 50vw;
+        height: auto;
+        z-index: 1;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%)
+        }
+    
+    .contenedora{
+            width: 30%;
+            z-index: 0;
+        }
+
+    #presentacion {
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 30%;
+    }
+
+    nav div{
+        width: 80%;
+        font-size: 1rem;
+        
+    }
+
+    .presentacion{
+        margin-right: 0%;
+    }
+
+    hr{
+        visibility: hidden;
+       }
+
+    
+
+}
+
+@media screen and (max-width:1100px) {
+    /**{
+        padding: 0;
+        margin: 0;
+    }*/
+
+   /* body{
+        width: 100vw;
+        height: auto;
+    }*/
+    
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .logo_rc {
+        align-self: center;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+
+    }
+
+    h1{
+        margin-top: 50px;
+        background: linear-gradient(135deg, rgba(35,253,236,1) 0%, rgba(131,88,253,1) 50%, rgba(240,52,175,1) 100%);
+    }
+
+    .datos {
+        margin-top: 100px;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        margin-left: 0;
+        padding-top: 75px;
+        flex-wrap: wrap;
+    }
+
+    #presentacion {
+        margin-left: 15%;
+    }
+}

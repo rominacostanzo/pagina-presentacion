@@ -1,0 +1,18 @@
+{
+  "name": "paquete",
+  "version": "11.0.0",
+  "description": "paquete",
+  "main": "index.js",
+  "scripts": {
+    "test": "bla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://queteimporta"
+  },
+  "keywords": [
+    "nada"
+  ],
+  "author": "yo",
+  "license": "MIT"
+}
